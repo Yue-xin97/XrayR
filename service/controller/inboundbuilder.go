@@ -4,8 +4,6 @@ package controller
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/sirupsen/logrus"
-
 	"github.com/XrayR-project/XrayR/api"
 	"github.com/XrayR-project/XrayR/common/legocmd"
 	"github.com/yuzuki999/xray-core/common/net"
@@ -139,7 +137,7 @@ func InboundBuilder(config *Config, nodeInfo *api.NodeInfo, tag string) (*core.I
 	} else if networkType == "websocket" {
 		headers := make(map[string]string)
 		headers["Host"] = nodeInfo.Host
-		logrus.Debug(nodeInfo.Path)
+		fmt.Println(nodeInfo.Path)
 		wsSettings := &conf.WebSocketConfig{
 			AcceptProxyProtocol: config.EnableProxyProtocol,
 			Path:                nodeInfo.Path,
