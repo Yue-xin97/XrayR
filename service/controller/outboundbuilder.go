@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/XrayR-project/XrayR/api"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
+	"github.com/yuzuki999/xray-core/common/net"
+	"github.com/yuzuki999/xray-core/core"
+	"github.com/yuzuki999/xray-core/infra/conf"
 )
 
 //OutboundBuilder build freedom outbund config for addoutbound

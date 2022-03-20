@@ -6,13 +6,13 @@ import (
 
 	"github.com/XrayR-project/XrayR/api"
 	"github.com/XrayR-project/XrayR/app/mydispatcher"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/proxy"
+	"github.com/yuzuki999/xray-core/common/protocol"
+	"github.com/yuzuki999/xray-core/core"
+	"github.com/yuzuki999/xray-core/features/inbound"
+	"github.com/yuzuki999/xray-core/features/outbound"
+	"github.com/yuzuki999/xray-core/features/routing"
+	"github.com/yuzuki999/xray-core/features/stats"
+	"github.com/yuzuki999/xray-core/proxy"
 )
 
 func (c *Controller) removeInbound(tag string) error {

@@ -12,8 +12,8 @@ import (
 	"github.com/XrayR-project/XrayR/api/sspanel"
 	_ "github.com/XrayR-project/XrayR/main/distro/all"
 	. "github.com/XrayR-project/XrayR/service/controller"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
+	"github.com/yuzuki999/xray-core/core"
+	"github.com/yuzuki999/xray-core/infra/conf"
 )
 
 func TestController(t *testing.T) {
